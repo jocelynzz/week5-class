@@ -1,7 +1,7 @@
 class DirectorsController < ApplicationController
 
   def index
-    @director = Director.order('name asc')
+    @directors = Director.order('name asc')
   end
 
   def show
